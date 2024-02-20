@@ -16,13 +16,13 @@ function App() {
     }
   };
   const increase = () => {
-    console.log(num);
+    // console.log(num);
     // console.log()
     setNum(num + 1);
   };
   const decrease = () => {
     if (num !== 0) {
-      console.log(num);
+      // console.log(num);
 
       setNum(num - 1);
     }
